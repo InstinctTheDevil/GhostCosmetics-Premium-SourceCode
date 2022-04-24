@@ -3,9 +3,10 @@
  Full leak of ghostcosmetics premium.
  
 
-## Authors
+## Helpers / Authors
 
-- [@eclipsed](https://www.discord.gg/eclipsed)
+- [@eclipsed](https://www.discord.gg/eclipsed) - helped me get gc
+- [@InstinctTheDevil](https://github.com/InstinctTheDevil/) - Deobfuscated, refactored and cracked GC
 
 
 ## Expose 
