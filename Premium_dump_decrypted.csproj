@@ -1,0 +1,139 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Premium</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.0.175" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BCMakeCert">
+      <HintPath>BCMakeCert.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore">
+      <HintPath>FiddlerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>bin\Debug\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>..\..\Downloads\Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="Telerik.NetworkConnections">
+      <HintPath>Telerik.NetworkConnections.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Premium.BetaInit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.BetaInit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.BloodpointsModule.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.BloodpointsModule.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.CurrenciesSpoofer.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.CurrenciesSpoofer.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.Dashboard.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.Dashboard.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.Form_Alert.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.Form_Alert.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.JesusBooster.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.JesusBooster.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.LevelSpoofer.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.LevelSpoofer.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.LocalMarket.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.LocalMarket.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.RankEditor.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.RankEditor.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Premium.Register.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Premium.Register.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Premium.BetaInit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.BetaInit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.BloodpointsModule.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.BloodpointsModule.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.CurrenciesSpoofer.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.CurrenciesSpoofer.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.Dashboard.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.Dashboard.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.Form_Alert.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.Form_Alert.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.JesusBooster.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.JesusBooster.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.LevelSpoofer.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.LevelSpoofer.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.LocalMarket.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.LocalMarket.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.RankEditor.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.RankEditor.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Premium.Register.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Premium.Register.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

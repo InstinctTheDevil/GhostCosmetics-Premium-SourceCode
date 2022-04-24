@@ -1,0 +1,5 @@
+How do I use the spoofers?
+Open the desired spoofers module, a text box specificating the current configs will appear, to modify them click "Modify Configs"
+and a text editor will show up, following the format there modify the numbers of your desired currencies or level, remember to save it
+when you're done!
+Then click "Start Spoofer" and now feel free to open the game or to enable another module.

@@ -1,0 +1,5 @@
+The register text boxes won't show the detail I gotta put in!
+1. Your desired username
+2. Your email
+3. Your password
+4. Your license

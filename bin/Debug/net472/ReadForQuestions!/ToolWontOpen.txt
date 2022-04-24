@@ -1,0 +1,2 @@
+Tool won't open!
+Run as admin and make sure there's no antivirus blocking it from running

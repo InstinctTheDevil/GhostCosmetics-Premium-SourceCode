@@ -1,0 +1,3 @@
+How do I make my program remember my username & password?
+Check your configs folder and input in yourusername.txt (your username)
+and in yourpassword.txt (your password)

@@ -1,0 +1,3 @@
+My antivirus detected this as a malicious program!
+Don't worry, it's only a false positive caused by the safety obfuscation added to Premium, if you want to use Premium
+with your antivirus on you can add an exception folder (Premium's Folder)

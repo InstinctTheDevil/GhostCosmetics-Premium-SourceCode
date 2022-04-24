@@ -1,0 +1,1 @@
+{"totalXp":8021083,"levelVersion":7880,"level":778,"prestigeLevel":666,"currentXp":12321,"currentXpUpperBound":12322}

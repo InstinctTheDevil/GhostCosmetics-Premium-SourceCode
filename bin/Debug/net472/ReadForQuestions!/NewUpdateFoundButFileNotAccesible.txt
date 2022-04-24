@@ -1,0 +1,6 @@
+It redirects me to something but triggers an error!
+Redirecting to a new update means there's a new version available, if it opens your browser let it download the file and that's the new
+version!
+If you however get an error at the tool instead here are the other download sources:
+- Premium bot at Discord, do the command !!download
+- Web Dashboard, access it from my Discord

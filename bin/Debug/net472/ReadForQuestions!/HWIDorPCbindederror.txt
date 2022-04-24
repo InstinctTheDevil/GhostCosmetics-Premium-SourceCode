@@ -1,0 +1,2 @@
+It says my account is binded to a different machine/PC!
+Open your web portal and click the reset HWID button, in case you can't do this open a Premium support ticket at GhostyCommunity

@@ -1,0 +1,2 @@
+Malicious Activity error while opening or while logging in!
+This means the auth system is down, not Premium's fault, nor mine.

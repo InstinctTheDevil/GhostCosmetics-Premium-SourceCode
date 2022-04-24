@@ -1,0 +1,1 @@
+Auth could potentially be down. Only report this issue if an announcement has not been done yet.

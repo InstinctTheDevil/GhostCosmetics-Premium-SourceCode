@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Premium\BetaInit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\BloodpointsModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\CurrenciesSpoofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\Form_Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\JesusBooster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\LevelSpoofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\LocalMarket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\RankEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Premium\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
